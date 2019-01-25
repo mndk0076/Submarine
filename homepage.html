@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>underwater restaurant</title>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+        <link rel="stylesheet", type="text/css", href="styles/homepageStyle.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <script src="javascript/homepage.js" type="text/javascript" ></script>
+    </head>
+    <body>
+        <header id="header">
+                <a href="homepage.html"><img id="underwater-logo" src="images/logo_white.png" alt="underwater restaurant logo" width="100" title="underwater restaurant"/></a>
+            <nav id="main-menu">
+                <ul class="top-nav">
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="location.html">LOCATION</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="weeklyspecial.html">WEEKLY SPECIAL</a></li>
+                    <li><a href="eventsbooking.html">RESERVATIONS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="page-wrapper">
+        <main id="main-slideshow">
+            
+        <div id="slideshow-container">
+            <a href="weeklyspecial.html"><img class="slides" src="images/weeklyspecial.jpg" alt="weekly spaical" title="weekly spaical banner"/></a>
+            <!--image source: https://www.sbs.com.au/food/recipes/rhubarb-and-lentil-salad-goats-curd-and-black-olives-->
+            <a href="contest.html"><img class="slides" src="images/contestbanner.jpg" alt="contest" title="contest banner"/></a>
+            <!--image source: http://anthonys.restaurant/menu/fettucine-alfredo/02-23-att-risotto-ftr1/-->
+            <a href="giftcard.html"><img class="slides" src="images/giftcardbanner.jpg" alt="gift card" title="gift card banner"/></a>
+            <!--image source: https://thelodgedinners.com/img_1289/-->
+            <button class="btn" onclick="plusIndex(-1)" id="btnprev">&#10094;</button>
+            <button class="btn" onclick="plusIndex(1)"id="btnnext">&#10095;</button>
+            </div>
+        <div class="slideshow-textblock-container">
+            <p class="slideshow-title"><a href="weeklyspecial.html">Weekly Sepcial</a></p>
+            <p class="slideshow-title"><a href="contest.html">Join the Contest</a></p>
+            <p class="slideshow-title"><a href="giftcard.html">Gift Card</a></p>
+            </div>
+        </main>
+        <div class="section-container">
+       <section id="sec1-menu">
+            <a href="menu.html"><img id="menuhomeimg" src="images/menu_homepage.jpg" alt="menu" title="menu image"/></a><!--image sourse from:https://www.foodandwine.com/recipes/seafood-pasta-tuscan-hot-oil -->
+           <div id="menu-text-block">
+               <h2 class="menu-subtitle"><a href="menu.html">Menu</a></h2>
+           </div>
+            </section>
+        <section id="sec2-geninfo">
+            <div id="sec2">
+            <h3 class="hours">Hours</h3>
+            <h3>Lunch</h3>
+            <p>Mon-Fri 11:30am-2:30pm</p>
+            <h3>Dinner</h3>
+            <p>Mon-Thur 5:30am-9pm</p>
+            <p>Fri-Sun 5:30am-9:30pm</p>
+            <h3>underwater restaurant</h3>
+            <p>5000 Yonge St. Toronto, ON M2N 7E9</p>
+            <p>(416)050-5050</p>
+            </div>
+            </section>  
+        </div>
+        </div>
+        <footer id="footer">
+            <div id="aside-info-left">
+            <aside id=asideinfoleft>
+                <h2 class="hidden">Footer navigation</h2>
+                <ul class="bottom-nav">
+                    <li><a href="location.html">Hours</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="giftcard.html">Gift Card</a></li>
+                    <li><a href="sitemap.html">Site Map</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <p class="right">© Copyright underwater restaurant. All rights reserved.</p>
+                </aside>
+                </div>
+            <div id="aside-info-right">
+            <aside id=asideinforight>
+                <ul class="bottom-nav">
+                    <li><a href="homepage.html"><img src="images/logo_344a6d.png" alt="underwater restaurant logo" width="150" title="underwater restaurant"/></a>
+                    <p class="footerp">5000 Yonge St. Toronto, ON M2N 7E9</p>
+                    <p class="footerp">(416)050-5050</p></li>
+                    <a href="www.facebook.com/underwater"><i class="fab fa-facebook-square"></i></a>
+                    <a href="instagram.html"><i class="fab fa-instagram"></i></a>
+                    <a href="twitter.html"><i class="fab fa-twitter-square"></i></a>
+                </ul>
+                </aside>
+            </div>
+        </footer>
+    </body>
+</html>

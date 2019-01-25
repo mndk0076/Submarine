@@ -1,0 +1,192 @@
+
+/*1.Basic Styles*/
+html{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    margin:0;
+    line-height: 1.3;
+    background-color:#344A6D;
+}
+*, *::before, *::after {
+  box-sizing:inherit;
+}
+.page-wrapper {
+  max-width:1200px;
+  margin:0 auto;
+}
+.hidden {
+  position:absolute;
+  left:-10000px;
+}
+.clearfix {
+    overflow: auto;
+}
+
+/*Header*/
+#header{
+    background-color:#344A6D;
+    overflow:hidden;
+}
+#underwater-logo{
+    width: 25%;
+    display: block;
+    margin: 30px auto;
+}
+#main-menu li{
+    display:inline-block;
+    letter-spacing:2px;
+    padding:10px 20px;
+}
+.top-nav{
+    position:relative;
+    text-align: center;
+}
+#main-menu a{
+    font-weight:bold;
+    color:#c9b784;
+    text-decoration:none;
+    padding:8px;
+}
+#main-menu a:hover{
+    background-color: white;
+    color:#344A6D;
+}
+
+/* Main */
+#main{
+    background-color: #344A6D;
+    color:#e6edf0;
+    align-content: center;
+    text-align:justify;
+}
+#about{
+    text-align: center;
+}
+h1{
+    font-size:1.5em;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+#formSuccess{
+    position: relative;
+    left: 650px;
+}
+input{
+    border-radius:10px;
+}
+#carInfo{
+    margin-top:50px;
+    margin-bottom:50px;
+    position:relative;
+    right: 20px;
+}
+#fname{
+    margin-top:25px;
+    margin-bottom:25px; 
+}
+#lname{
+    margin-top:25px;
+    margin-bottom:25px; 
+}
+#carEmail{
+    margin-top:25px;
+    margin-bottom:25px;
+    position:relative;
+    left:20px; 
+}
+#carPhone{
+    margin-top:25px;
+    margin-bottom:25px; 
+    position:relative;
+    right:10px;
+}
+#highestdeg{
+    margin-top:50px;
+    margin-bottom:25px; 
+    position:relative;
+    right:10px;
+}
+#carInstitution{
+    margin-top:25px;
+    margin-bottom:25px; 
+    position:relative;
+    right:35px;
+}
+#lateExperience{
+    margin-top:25px;
+    margin-bottom:25px; 
+    position:relative;
+    right:47px;
+}
+#upload{
+    margin-top:25px;
+    margin-bottom:25px; 
+    position:relative;
+    left:3px;
+}
+/*#education{
+    margin-top:25px;
+    margin-bottom:25px;
+    position:relative;
+    right:25px;
+}*/
+#submit{
+    width:50px;
+    height:25px;
+    margin-bottom: 50px;
+}
+
+/* Footer */
+#footer{
+    font-size: 19px;
+    display: block;
+    background-color:#e6edf0;
+    margin:0;
+    padding: 50px;
+    clear:both;
+    overflow: hidden;
+}
+.footerp{
+    color:#344A6D;
+}
+.bottom-nav{
+    margin:0;
+    padding:0;
+}
+.bottom-nav li{
+    list-style:none;
+}
+.bottom-nav a{
+    text-decoration:none;
+    color:#344A6D;
+}
+.bottom-nav a:hover{
+    color:#c9b784;
+    text-decoration:underline;
+}
+.right{
+    font-size:14px;
+    margin-top: 100px;
+    color:black;
+}
+#aside-info-left{
+    width:30%;
+    margin-left:10%;
+    float:left;
+}
+#aside-info-right{
+    width:44%;
+    float:right;
+}
+.fab fa-instagram {
+    width:8%;
+}
+#asideinforight a {
+    font-size:33px;
+    margin:0 5px;
+}

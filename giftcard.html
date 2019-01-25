@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>underwater restaurant</title>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+        <link rel="stylesheet", type="text/css", href="styles/giftcardsStyle.css">
+        <script src="javascript/giftcardsScript.js" type="text/javascript" ></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    
+    </head>
+        <body>
+        <header id="header">
+                <a href="homepage.html"><img id="underwater-logo" src="images/logo_white.png" alt="underwater restaurant logo" width="100" title="underwater restaurant"/></a>
+            <nav id="main-menu">
+                <ul class="top-nav">
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="location.html">LOCATION</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="weeklyspecial.html">WEEKLY SPECIAL</a></li>
+                    <li><a href="eventsbooking.html">RESERVATIONS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-container">
+        <h1 id="title">GIFT CARDS</h1>
+            
+        <div id="giftcard-container">
+        <h2>Choose and Purchase a Gift Card</h2>
+        <div class="arrow-down"></div>
+        <div class="gift-card">
+           <img id="gc-50" class="giftcard" src="images/gc_50.png" alt="gift card 50 dollars"/> 
+           <img id="gc-100" class="giftcard" src="images/gc_100.png" alt="gift card 100 dollars"/>
+        </div>
+        </div>
+        
+        <div id="gc-form" class="gc-form">
+        <h2>Please Enter Your Information</h2>
+        <form name="gc_formName"  action="#" method="post">
+            <label class="hidden" for="yourName">Full Name* :</label>
+            <input id="formName" type="text" name="yourName" placeholder="Full Name*" />
+            
+            <label class="hidden" for="yourEmail">Email Address* :</label>
+            <input id="formEmail" type="email" name="yourEmail" placeholder="Your Email Address*" />
+            
+            <label class="hidden" for="recepientName">Recepient's Full Name* :</label>
+            <input id="formRName" type="text" name="recepientName" placeholder="Recepient's Full Name*" />
+            
+            <label class="hidden" for="recepientEmail">Recepient's Email Adress* :</label>
+            <input id="formREmail" type="email" name="recepientEmail" placeholder="Recepient's Email Address*" />
+            
+             <label class="hidden" for="formMsg">Recepient's Email Adress* :</label>
+            <textarea id="formMsg" placeholder="Your Message(Optional)"></textarea>
+            
+            <input  id="formButton"  type="submit" value="Purchase Gift Card"/>
+        </form>
+        </div>
+            
+        <div id="giftcard-confirmation">
+        <h2>Thank You for Purchasing the Gift Card</h2>
+        <div class="arrow-down"></div>
+        <div>
+         <p><em>We will send a confirmation email shortly.</em></p>   
+        </div>
+        <div id="summary">
+            <div>
+              <span class="summaryInput">Your Name:</span> <span id="custName" class="displayInfo"></span>
+            </div>
+            <div>
+              <span class="summaryInput">Your Email Address:</span> <span id="custEmail" class="displayInfo"></span>
+            </div>
+            <div>
+              <span class="summaryInput">Recepient's Name:</span> <span id="custRName" class="displayInfo"></span>
+            </div>
+            <div>
+              <span class="summaryInput">Recepient's Email Address:</span> <span id="custREmail" class="displayInfo"></span>
+            </div>
+            <div>
+              <span class="summaryInput">Amount:</span> <span id="custAmount" class="displayInfo"></span>
+            </div>
+            <div>
+              <span class="summaryInput">Message:</span> <div id="custMsg" class="displayInfo"></div>
+            </div>
+           
+        </div>
+        </div>
+            
+        </main>
+        <footer id="footer">
+            <div id="aside-info-left">
+            <aside id=asideinfoleft>
+                <ul class="bottom-nav">
+                    <li><a href="hours.html">Hours</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="giftcard.html">Gift Card</a></li>
+                    <li><a href="sitemap.html">Site Map</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <p class="right">© Copyright underwater restaurant. All rights reserved.</p>
+                </aside>
+                </div>
+            <div id="aside-info-right">
+            <aside id=asideinforight>
+                <ul class="bottom-nav">
+                    <li><a href="homepage.html"><img src="images/logo_344a6d.png" alt="underwater restaurant logo" width="150" title="underwater restaurant"/></a>
+                    <p class="footerp">5000 Yonge St. Toronto, ON M2N 7E9</p>
+                    <p class="footerp">(416)050-5050</p></li>
+                    <a href="www.facebook.com/underwater"><i class="fab fa-facebook-square"></i></a>
+                    <a href="instagram.html"><i class="fab fa-instagram"></i></a>
+                    <a href="twitter.html"><i class="fab fa-twitter-square"></i></a>
+                </ul>
+                </aside>
+            </div>
+        </footer>
+    </body>
+</html>

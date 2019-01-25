@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>underwater restaurant</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/careersStyle.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="main-logo">
+        <a href="homepage.html"><img id="underwater-logo" src="images/logo_white.png" alt="underwater restaurant logo" width="100" title="underwater restaurant"/></a>
+        </div>
+        <nav id="main-menu">
+            <ul class="top-nav">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="location.html">LOCATION</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="weeklyspecial.html">WEEKLY SPECIAL</a></li>
+                <li><a href="eventsbooking.html">RESERVATIONS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <h1>Wanna join our amazing staff?</h1>
+        <p>If you're interesting in joining us submit a resume</p>
+
+        <span id="formSuccess"></span>
+
+        <form action="careers.html" method="post">
+                
+
+            <div id="about">
+                <h2>About You</h2>
+                <div id="fname" class="carInfo">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="firstname" id="firstname">
+                    <span id="fnameErr"></span>
+                </div>
+
+                    <div id="lname" class="carInfo">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="lastname" id="lastname">
+                    <span id="lnameErr"></span>
+                </div>
+
+
+                <div id="carEmail" class="carInfo">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email">
+                    <span id="emailErr"></span>
+                </div>
+
+                <div id="carPhone" class="carInfo">
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" name="phone" id="phone">
+                    <span id="phoneErr"></span>
+                </div>
+
+
+                
+                <div id="highestdeg" class="carInfo">
+                <h2>Education</h2>
+                    <label for="highdeg">Highest Degree:</label>
+                    <input type="text" name="highdeg" id="highdeg">
+                    <span id="degErr"></span>
+                </div>
+
+                    <div id="carInstitution" class="carInfo">
+                    <label for="institution">University or Institution:</label>
+                    <input type="text" name="institution" id="institution">
+                    <span id="instituErr"></span>
+                    </div>
+
+                
+                <div id="lateExperience" class="carInfo">
+                    <label for="lastemploy">Latest Employer/Company:</label>
+                    <input type="text" name="lastemploy" id="lastemploy">
+                    <span id="experErr"></span>
+                </div>
+
+                    <div id="upload" class="carInfo">
+                    <label for="fileupload"> Upload Your Resume Here!</label>
+                    <input type="file" name="fileupload" id="fileupload">
+                    </div>
+
+                <input type="submit" value="submit" id="submit">
+            </div>
+        </form>
+        
+    </main>
+    <footer id="footer">
+        <div id="aside-info-left">
+            <aside id=asideinfoleft>
+                <h2 class="hidden">Footer navigation</h2>
+                <ul class="bottom-nav">
+                    <li><a href="hours.html">Hours</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="giftcard.html">Gift Card</a></li>
+                    <li><a href="sitemap.html">Site Map</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="contact_us.html">Contact</a></li>
+                </ul>
+                <p class="right">© Copyright underwater restaurant. All rights reserved.</p>
+            </aside>
+        </div>
+        <div id="aside-info-right">
+            <aside id=asideinforight>
+                <ul class="bottom-nav">
+                    <li><a href="homepage.html"><img src="images/logo_344a6d.png" alt="underwater restaurant logo"
+                                width="150" title="underwater restaurant" /></a>
+                        <p class="footerp">5000 Yonge St. Toronto, ON M2N 7E9</p>
+                        <p class="footerp">(416)050-5050</p>
+                    </li>
+                    <a href="www.facebook.com/underwater"><i class="fab fa-facebook-square"></i></a>
+                    <a href="instagram.html"><i class="fab fa-instagram"></i></a>
+                    <a href="twitter.html"><i class="fab fa-twitter-square"></i></a>
+                </ul>
+            </aside>
+        </div>
+    </footer>
+    <script src="javascript/careers.js"></script>
+</body>
+
+</html>
