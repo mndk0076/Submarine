@@ -13,12 +13,12 @@ body{
   box-sizing:inherit;
 }
 .page-wrapper {
-  max-width:1200px;
-  margin:0 auto;
+    max-width:1200px;
+    margin:0 auto;
 }
 .hidden {
-  position:absolute;
-  left:-10000px;
+    position:absolute;
+    left:-10000px;
 }
 .clearfix {
     overflow: auto;

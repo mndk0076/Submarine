@@ -13,12 +13,12 @@ body{
   box-sizing:inherit;
 }
 .page-wrapper {
-  max-width:1200px;
-  margin:0 auto;
+    max-width:1200px;
+    margin:0 auto;
 }
 .hidden {
-  position:absolute;
-  left:-10000px;
+    position:absolute;
+    left:-10000px;
 }
 .clearfix {
     overflow: auto;
@@ -108,8 +108,6 @@ input{
     position:relative;
     left:735px;
 }
-
-
 /* Footer */
 #footer{
     font-size: 19px;
@@ -158,4 +156,197 @@ input{
 #asideinforight a {
     font-size:33px;
     margin:0 5px;
+}
+@media screen and (max-width:1300px){
+    #contactinfofirst{
+        margin-top:50px;
+        position:relative;
+        left:250px;
+    }
+    #contactinfosecond{
+        margin-top:50px;
+        margin-bottom:50px;
+        position:relative;
+        left:430px;
+    }
+    #submit{
+        width:50px;
+        height:25px;
+        margin-bottom: 50px;
+        position:relative;
+        left:635px;
+    }
+}
+@media screen and (max-width:1150px){
+    #contactinfofirst{
+        margin-top:50px;
+        position:relative;
+        left:150px;
+    }
+    #contactinfosecond{
+        margin-top:50px;
+        margin-bottom:50px;
+        position:relative;
+        left:330px;
+    }
+    #submit{
+        width:50px;
+        height:25px;
+        margin-bottom: 50px;
+        position:relative;
+        left:535px;
+    }
+}
+@media screen and (max-width:900px){
+    #contactinfofirst{
+        margin-top:50px;
+        position:relative;
+        left:50px;
+    }
+    #contactinfosecond{
+        margin-top:50px;
+        margin-bottom:50px;
+        position:relative;
+        left:230px;
+    }
+    #submit{
+        width:50px;
+        height:25px;
+        margin-bottom: 50px;
+        position:relative;
+        left:435px;
+    }
+}
+@media screen and (max-width:778px){
+    #contactinfofirst{
+        margin-top:50px;
+        position:relative;
+        left:50px;
+    }
+    #contactinfosecond{
+        margin-top:50px;
+        margin-bottom:50px;
+        position:relative;
+        left:130px;
+    }
+    #submit{
+        width:50px;
+        height:25px;
+        margin-bottom: 50px;
+        position:relative;
+        left:350px;
+    }
+    #email {
+        position: relative;
+        left:250px;
+        margin-top: 25px;
+    }
+    #labEmail{
+        position: relative;
+        top: 50px;
+        right:450px;
+    }
+}
+@media screen and (max-width:620px){
+    #contactinfosecond{
+        margin-top:50px;
+        margin-bottom:50px;
+        position:relative;
+        left:100px;
+    }
+    #labEmail{
+        position: relative;
+        top: 50px;
+        right:400px;
+    }
+}
+@media screen and (max-width:600px){
+    #contactinfofirst{
+        margin-top:50px;
+        position:relative;
+        left:50px;
+    }
+    #contactinfosecond{
+        margin-top:50px;
+        margin-bottom:50px;
+        position:relative;
+        left:110px;
+    }
+    #submit{
+        width:50px;
+        height:25px;
+        margin-bottom: 50px;
+        position:relative;
+        left:330px;
+    }
+    #email {
+        position: relative;
+        left:200px;
+        margin-top: 25px;
+    }
+    #labEmail{
+        position: relative;
+        top: 0px;
+        left:180px;
+    }
+}
+@media screen and (max-width:525px){
+    #contactinfofirst{
+        margin-top:50px;
+        position:relative;
+        left:0px;
+    }
+    #contactinfosecond{
+        margin-top:50px;
+        margin-bottom:50px;
+        position:relative;
+        left:0px;
+    }
+    #submit{
+        width:50px;
+        height:25px;
+        margin-bottom: 50px;
+        position:relative;
+        left:150px;
+    }
+    #email {
+        position: relative;
+        top:35px;
+        left:-85px;
+        margin-top: 25px;
+    }
+    #labEmail{
+        position: relative;
+        top: 40px;
+        left:-90px;
+    }
+    #phone{
+       position: relative;
+        top:0px;
+        left: 160px;
+        margin-top: 25px; 
+    } 
+    #labPhone{
+        position: relative;
+        top: 45px;
+        right:375px;
+    }
+    #name{
+        position: relative;
+        left: 55px;
+    }
+    #labName{
+        position: relative;
+        left: 100px;
+    }
+}
+@media screen and (max-width:525px){
+    body{
+        font-size: .9em;
+    }
+    #labPhone{
+        position: relative;
+        top: 45px;
+        right:325px;
+    }
 }
