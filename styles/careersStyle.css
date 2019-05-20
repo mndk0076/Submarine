@@ -190,3 +190,8 @@ input{
     font-size:33px;
     margin:0 5px;
 }
+@media screen and (max-width:800px){
+    body{
+        font-size:.75em;
+    }
+}

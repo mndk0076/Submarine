@@ -42,53 +42,55 @@
 
 ?>
 
-<form id="contactform" action="" method="post">
-    <div id="contactinfofirst">
-        <span>
-            <label id="labName" for="name">Name:</label>
-            <input type="text" id="name" name ="names">
-            <span id="nameErr" style="color:red;">
+<form id="contactform"  action="" method="post">
+    <div id="responsiveDiv">
+        <div id="contactinfofirst">
+            <span class="conBlock">
+                <label id="labName" for="name">Name:</label>
+                <input type="text" id="conName" name ="names">
+                <span id="nameErr" style="color:red;">
+                    <?php
+                        if(isset($nameErr)){
+                            echo $nameErr;
+                        }
+                    ?>
+                </span>
+            </span>
+            <span class="conBlock">
+                <label id="labPhone" for="phone">Phone Number:</label>
+                <input type="text" id="conPhone" name ="phones">
+                <span id="phoneErr" style="color:red;">
+                    <?php
+                        if(isset($phoneErr)){
+                            echo $phoneErr;
+                        }
+                    ?>
+                </span>
+            </span>
+            <span class="conBlock">
+                <label id="labEmail" for="email">Email:</label>
+                <input type="text" id="conEmail" name ="emails">
+                <span id="emailErr" style="color:red;">
+                    <?php
+                        if(isset($emailErr)){
+                            echo $emailErr;
+                        }
+                    ?>
+                </span>
+            </span>
+        </div>
+        <div id="contactinfosecond">
+            <label id="comLab" for="comments">Comments:</label>
+            <textarea rows="4" cols="50" id="myComment" name="comments" form="contactform"></textarea> 
+            <span id="commentErr" style="color:red;">
                 <?php
-                    if(isset($nameErr)){
-                        echo $nameErr;
+                    if(isset($commentErr)){
+                        echo $commentErr;
                     }
                 ?>
             </span>
-        </span>
-        <span id="formmargin">
-            <label id="labPhone" for="phone">Phone Number:</label>
-            <input type="text" id="phone" name ="phones">
-            <span id="phoneErr" style="color:red;">
-                <?php
-                    if(isset($phoneErr)){
-                        echo $phoneErr;
-                    }
-                ?>
-            </span>
-        </span>
-        <span>
-            <label id="labEmail" for="email">Email:</label>
-            <input type="text" id="email" name ="emails">
-            <span id="emailErr" style="color:red;">
-                <?php
-                    if(isset($emailErr)){
-                        echo $emailErr;
-                    }
-                ?>
-            </span>
-        </span>
+        </div>
+        <input type="submit" value="submit" name="addCon" id="submit">
     </div>
-    <div id="contactinfosecond">
-        <label for="comments">Comments:</label>
-        <textarea rows="4" cols="50" id="myComment" name="comments" form="contactform"></textarea> 
-        <span id="commentErr" style="color:red;">
-            <?php
-                if(isset($commentErr)){
-                    echo $commentErr;
-                }
-            ?>
-        </span>
-    </div>
-    <input type="submit" value="submit" name="addCon" id="submit">
 
 </form>
