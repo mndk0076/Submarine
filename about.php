@@ -20,7 +20,7 @@
                     <li><a href="menu.html">MENU</a></li>
                     <li><a href="weeklyspecial.html">WEEKLY SPECIAL</a></li>
                     <li><a href="eventsbooking.html">RESERVATIONS</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="contacts.php">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
@@ -76,8 +76,8 @@
                         <li><a href="menu.html">Menu</a></li>
                         <li><a href="giftcard.html">Gift Card</a></li>
                         <li><a href="sitemap.html">Site Map</a></li>
-                        <li><a href="careers.html">Careers</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="careers.php">Careers</a></li>
+                        <li><a href="contacts.php">Contact</a></li>
                     </ul>
                     <p class="right">© Copyright underwater restaurant. All rights reserved.</p>
                 </aside>
