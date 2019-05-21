@@ -14,7 +14,7 @@
             </div>
             <nav id="main-menu">
                 <ul class="top-nav">
-                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="about.php">ABOUT</a></li>
                     <li><a href="location.html">LOCATION</a></li>
                     <li><a href="menu.html">MENU</a></li>
                     <li><a href="weeklyspecial.html">WEEKLY SPECIAL</a></li>

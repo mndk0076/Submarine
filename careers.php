@@ -14,12 +14,12 @@
             </div>
             <nav id="main-menu">
                 <ul class="top-nav">
-                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="about.php">ABOUT</a></li>
                     <li><a href="location.html">LOCATION</a></li>
                     <li><a href="menu.html">MENU</a></li>
                     <li><a href="weeklyspecial.html">WEEKLY SPECIAL</a></li>
                     <li><a href="eventsbooking.html">RESERVATIONS</a></li>
-                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a href="contacts.php">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
@@ -43,7 +43,7 @@
                         <li><a href="giftcard.html">Gift Card</a></li>
                         <li><a href="sitemap.html">Site Map</a></li>
                         <li><a href="careers.php">Careers</a></li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="contacts.php">Contact</a></li>
                     </ul>
                     <p class="right">© Copyright underwater restaurant. All rights reserved.</p>
                 </aside>

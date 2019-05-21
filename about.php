@@ -6,7 +6,6 @@
         <title>underwater restaurant</title>
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="styles/about_usStyle.css">
-        <script src="javascript/about.js"></script>
     </head>
     <body>
         <header id="header">
@@ -15,7 +14,7 @@
             </div>
             <nav id="main-menu">
                 <ul class="top-nav">
-                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="about.php">ABOUT</a></li>
                     <li><a href="location.html">LOCATION</a></li>
                     <li><a href="menu.html">MENU</a></li>
                     <li><a href="weeklyspecial.html">WEEKLY SPECIAL</a></li>
@@ -97,7 +96,7 @@
                 </aside>
             </div>
         </footer>
-
+        <script src="javascript/about.js"></script>
     </body>
     <!--The chef bio was borrowed from Auberge du Pommier at this URL https://www.aubergedupommier.com/about/
                             and the images are open source from unsplash-->
