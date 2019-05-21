@@ -99,5 +99,5 @@
         <script src="javascript/about.js"></script>
     </body>
     <!--The chef bio was borrowed from Auberge du Pommier at this URL https://www.aubergedupommier.com/about/
-                            and the images are open source from unsplash-->
+        and the images are open source from unsplash-->
 </html>
