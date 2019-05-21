@@ -25,8 +25,8 @@ function confirmEmail($email){
             )
         );
         //Recipients
-        $mail->setFrom('underwater12543@gmail.com', 'Underwater Restaurant');  //Where to put the sent from?
-        $mail->addAddress($email, 'Applicant');     // can I use a variable containing their email?
+        $mail->setFrom('underwater12543@gmail.com', 'Underwater Restaurant');  //Where to put the sent from
+        $mail->addAddress($email, 'Applicant');     
 
 
 

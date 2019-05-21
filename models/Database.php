@@ -13,7 +13,7 @@ class Database
     private function __construct()
     {
     }
-
+    //empty constructor function
     public static function getDb(){
         if(!isset(self::$dbcon)) {
             try {

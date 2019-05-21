@@ -9,7 +9,7 @@ class Contact
         $pdost->execute();
         $count= $pdost->fetch(PDO::FETCH_OBJ);
         return $count; 
-    }
+    }//this function allows specific contact ids to be targeted for updating 
 
     public function getAllContacts($dbcon){
         $sql = "SELECT * FROM contacts"; 
@@ -17,7 +17,7 @@ class Contact
         $pdost->execute();
         $count = $pdost->fetchAll(PDO::FETCH_OBJ);
         return $count;
-    }
+    }//this function lists all of the contacts into a table 
 
     public function addContact($names, $phones, $emails, $comments, $db){
         $sql = "INSERT INTO contacts (names, phones, emails, comments)
@@ -29,7 +29,7 @@ class Contact
         $pdost->bindParam(':comments',$comments);
         $count = $pdost->execute();
         return $count;
-    }
+    }//this function inserts binded parameters into the database
 
     public function deleteContact($id, $db){
         $sql = "DELETE FROM contacts WHERE id = :id";
@@ -50,5 +50,5 @@ class Contact
         $pdost->bindParam(':comments', $comments);
         $count = $pdost->execute();
         return $count; 
-    }
+    }// this function updates the database using binded parameters
 }

@@ -43,8 +43,8 @@
                 
                 $resume = $file;
 
-                move_uploaded_file($_FILES['resume']['tmp_name'], __DIR__.'/../../otherImages/'.$resume); 
-            
+                move_uploaded_file($_FILES['resume']['tmp_name'], __DIR__.'/../../otherimages/'.$resume); 
+                
             }
         }
         if($resume == ""){

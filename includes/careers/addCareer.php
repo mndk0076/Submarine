@@ -62,7 +62,9 @@
                 
                 $resume = $file;
 
-                move_uploaded_file($_FILES['resume']['tmp_name'], __DIR__.'/../../otherImages/'.$resume); 
+                move_uploaded_file($_FILES['resume']['tmp_name'], __DIR__.'/../../otherimages/'.$resume); 
+                /*if the resume field is populated and there are no errors, then the input from the phone 
+                field is used to generate a new name for the file. Then the filr is moved to the images folder */
             }
         }
 
@@ -75,6 +77,7 @@
                 echo "<p class='addCar'>Thanks</p>";
                 include 'CareerConfirmEmail.php';
                 confirmEmail($email);
+                //this section includes the confirmation email code and uses the email input to send the email.
             }else{
                 echo "<p class='addCar'>Problem Sending Application</p>";
             }

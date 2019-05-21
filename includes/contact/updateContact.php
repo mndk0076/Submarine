@@ -69,7 +69,7 @@
     </div>
     <div id="contactinfosecond">
         <label for="comments">Comments:</label>
-        <textarea rows="4" cols="50" id="myComment" name="comments" form="contactform" value="<?= $updContact->comments; ?>"></textarea>
+        <textarea rows="4" cols="50" id="myComment" name="comments" form="contactform" ><?= $updContact->comments;?></textarea>
         <span id="commentErr"></span>
     </div>
     <input type="submit" value="submit" name="updCon" id="submit">

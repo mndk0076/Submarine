@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 
@@ -8,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?= $csspath ?>blog.css">
     <link rel="stylesheet" href="./css/styleAdmin.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -29,10 +27,6 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-            <!--<form class="form-inline ml-auto">
-                <input class="form-control form-control-dark w-100 search" type="text" placeholder="Search" aria-label="Search">
-            </form>-->
             <ul class="navbar-nav ml-auto">
                 <li>
                     <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false">

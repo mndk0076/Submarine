@@ -9,7 +9,7 @@ class Career
         $pdost->execute();
         $career = $pdost->fetch(PDO::FETCH_OBJ);
         return $career;
-    }
+    }//this function allows specific career ids to be targeted for updating 
 
     public function getAllCareers($dbcon){
         $sql = "SELECT * FROM careers";
@@ -18,6 +18,7 @@ class Career
         $careers = $pdost->fetchAll(PDO::FETCH_OBJ);
         return $careers;
     }
+    //this function is for listing careers on the admin page
 
     public function addCareer($fname, $lname, $email, $phone, $degree, $education, $formerEmployer, $resume, $db){
         $sql = "INSERT INTO careers (firstname, lastname, email, phone, degree, institution, formerEmployer, resume)  
@@ -34,7 +35,7 @@ class Career
         
         $count = $pdost->execute();
         return $count;
-    }
+    }//this function inserts binded parameters into the database
 
     public function deleteCareer($id, $db){
         $sql = "DELETE FROM careers WHERE id = :id";
@@ -63,5 +64,5 @@ class Career
 
          $count = $pdost->execute();
          return $count;
-    }
+    }// this function updates the database using binded parameters
 }
